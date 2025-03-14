@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infrequent Meanings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header"></div>
+
+        <div class="slider-wrapper">
+            <div class="slider">
+                <span id="slider-value">1 / 30</span>
+                <input type="range" id="word-slider" min="0" value="0">
+                <span id="slider-max">30</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <div class="top-circle"></div>
+                    <img src="" alt="" class="image" id="front-image">
+                    <div class="content">
+                        <div class="word-container">
+                            <div class="word" id="word-front">wake</div>
+                            <span class="pronunciation" id="pronunciation">/weɪk/</span>
+                        </div>
+                        <div class="type" id="type-front">noun</div>
+                    </div>
+                    <div class="bottom-circle"></div>
+                    <div class="definition">Tap to see the definition</div>   
+                </div>
+                <div class="card-back">
+                    <div class="top-circle"></div>
+                    <img src="" alt="" class="image" id="back-image">
+                    <div class="content">
+                        <div class="word" id="word-back">uyg'onmoq</div>
+                        <div class="type" id="type-back">fe'l</div>
+                    </div>
+                    <div class="bottom-circle"></div>
+                    <div class="definition">Tarjimani ko'rsatish</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-buttons">
+            <button id="audio-button">Ovoz</button>
+            <button id="next-button">Keyingi so'z</button>
+        </div>
+    </div>
+
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=ftro4Sxr"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
